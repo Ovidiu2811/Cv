@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container 
+{
+    display: flex;
+}
+.container-left 
+{   
+    width: 13%;
+    background-color: rgb(33, 33, 58);
+    color: white;
+}
+.container-left-items
+{
+    height: 100%;
+}
+img 
+{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border: 3px solid white;
+}
+.name
+{
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    font-weight: 400;
+}
+h4
+{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.menu 
+{
+    list-style: none;
+    line-height: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 12px;
+}
+p
+{
+    color: yellow;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Container right*/
+
+.container-right
+{
+    width: 87%;
+}
+.nav-bar-1
+{
+    height: 60px;
+    width: 80vw;
+    border-bottom: 3px solid black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.fas fa-suitcase
+{
+    size: 32px;
+}
+.container-one 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-gap: 10px;
+}
+.container-item{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.list
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h3
+{
+    font-weight: 500;
+}
+.nav-bar-2
+{
+    height: 60px;
+    width: 80vw;
+    border-bottom: 3px solid black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.paragraph h3
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+    font-size: bold;
+}
+h3
+{
+    color: rgb(92, 90, 90);
+}
+h1
+{
+    margin-left: 10px;
+}
+.nav-bar-3
+{
+    display: flex;
+}
+.skills
+{
+    width: 50%;
+    border-bottom: 3px solid black;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.references
+{   
+    width: 50%;
+    border-bottom: 3px solid black;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 52px;
+}
+.row-five
+{
+    display: flex;
+}
+.five-left
+{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.skills-items
+{
+    display: flex;
+}
+.box-1
+{
+    height: 20px;
+    width: 280px;
+    background-color: grey;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.box-2
+{
+    height: 20px;
+    width: 280px;
+    background-color: grey;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.box-3
+{
+    height: 20px;
+    width: 280px;
+    background-color: grey;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.box-4
+{
+    height: 20px;
+    width: 280px;
+    background-color: grey;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.box-5
+{
+    height: 20px;
+    width: 280px;
+    background-color: grey;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.box-size-1
+{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(9, 9, 44);
+}
+.box-size-2
+{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(9, 9, 44);
+}
+.box-size-3
+{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(9, 9, 44);
+}
+.box-size-4
+{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(9, 9, 44);
+}
+.box-size-5
+{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(9, 9, 44);
+}
+.row-five-right
+{
+    margin-top: 150px;
+    margin-left: 220px;
+}
+.contacts
+{
+    list-style: none;
+}
